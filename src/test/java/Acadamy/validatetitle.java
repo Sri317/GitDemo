@@ -41,6 +41,10 @@ public class validatetitle extends base {
 	@AfterTest
 	public void Teardown() {
 		driver.close();
+		System.out.println("hello git");
+		System.out.println("hi git");
+
+		
 	
 		
 	}
