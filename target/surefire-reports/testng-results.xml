@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17838" started-at="2021-11-15T18:59:31 IST" finished-at="2021-11-15T18:59:48 IST">
+    <groups>
+    </groups>
+    <test name="apptest" duration-ms="6" started-at="2021-11-15T18:59:31 IST" finished-at="2021-11-15T18:59:31 IST">
+    </test> <!-- apptest -->
+    <test name="validate" duration-ms="13454" started-at="2021-11-15T18:59:31 IST" finished-at="2021-11-15T18:59:44 IST">
+      <class name="Acadamy.validatetitle">
+        <test-method status="PASS" signature="intialize()[pri:0, instance:Acadamy.validatetitle@6989da5e]" name="intialize" is-config="true" duration-ms="13165" started-at="2021-11-15T18:59:31 IST" finished-at="2021-11-15T18:59:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialize -->
+        <test-method status="PASS" signature="basepagenavigation()[pri:0, instance:Acadamy.validatetitle@6989da5e]" name="basepagenavigation" duration-ms="100" started-at="2021-11-15T18:59:44 IST" finished-at="2021-11-15T18:59:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:Acadamy.validatetitle@6989da5e]" name="Teardown" is-config="true" duration-ms="122" started-at="2021-11-15T18:59:44 IST" finished-at="2021-11-15T18:59:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- Acadamy.validatetitle -->
+    </test> <!-- validate -->
+    <test name="navigation" duration-ms="15213" started-at="2021-11-15T18:59:31 IST" finished-at="2021-11-15T18:59:46 IST">
+      <class name="Acadamy.validatetitlenavigationbar">
+        <test-method status="PASS" signature="intialize()[pri:0, instance:Acadamy.validatetitlenavigationbar@185a6e9]" name="intialize" is-config="true" duration-ms="15019" started-at="2021-11-15T18:59:31 IST" finished-at="2021-11-15T18:59:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialize -->
+        <test-method status="PASS" signature="basepagenavigation()[pri:0, instance:Acadamy.validatetitlenavigationbar@185a6e9]" name="basepagenavigation" duration-ms="102" started-at="2021-11-15T18:59:46 IST" finished-at="2021-11-15T18:59:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:Acadamy.validatetitlenavigationbar@185a6e9]" name="Teardown" is-config="true" duration-ms="85" started-at="2021-11-15T18:59:46 IST" finished-at="2021-11-15T18:59:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- Acadamy.validatetitlenavigationbar -->
+    </test> <!-- navigation -->
+    <test name="homepage" duration-ms="17838" started-at="2021-11-15T18:59:31 IST" finished-at="2021-11-15T18:59:48 IST">
+      <class name="Acadamy.Homepage">
+        <test-method status="PASS" signature="intialize()[pri:0, instance:Acadamy.Homepage@13c9d689]" name="intialize" is-config="true" duration-ms="13131" started-at="2021-11-15T18:59:31 IST" finished-at="2021-11-15T18:59:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialize -->
+        <test-method status="PASS" signature="basepagenavigation(java.lang.String,[Ljava.lang.CharSequence;)[pri:0, instance:Acadamy.Homepage@13c9d689]" name="basepagenavigation" duration-ms="2562" started-at="2021-11-15T18:59:44 IST" data-provider="getdata" finished-at="2021-11-15T18:59:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonresticted]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.CharSequence;@7e468292]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+        <test-method status="PASS" signature="basepagenavigation(java.lang.String,[Ljava.lang.CharSequence;)[pri:0, instance:Acadamy.Homepage@13c9d689]" name="basepagenavigation" duration-ms="1977" started-at="2021-11-15T18:59:46 IST" data-provider="getdata" finished-at="2021-11-15T18:59:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricted]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.CharSequence;@24271f7a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:Acadamy.Homepage@13c9d689]" name="Teardown" is-config="true" duration-ms="76" started-at="2021-11-15T18:59:48 IST" finished-at="2021-11-15T18:59:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- Acadamy.Homepage -->
+    </test> <!-- homepage -->
+  </suite> <!-- Suite -->
+</testng-results>
